@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+.venv
+.venv*/
+.pip/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
